@@ -8,8 +8,9 @@
     </head>
     <body>
         <h1>D1 Computer</h1><br><br>
+        <a href="projects.html">go back</a><br>
 
-        IMAGE OF THE D1
+        <img class="bigImg" src="img/D1Computer.jpeg" alt="The D1 Computer">
 
         <p>This is the story of how I designed and build my homebrew computer the D1 and I will also explain how it works.</p><br>
         <h1>Introduction:</h1>
@@ -31,7 +32,7 @@
             Come up with some ideas, draw some block diagrams and write down some things,
             think about it and realize that it wouldn’t work and do it again until the more or less final design emerged.
             Here you can see some of my early brainstorming. (Yes I know my handwriting looks terrible)</p>
-            IMAAHGUEGHFAUIFHUIA<br>
+        <img class="smalImg" src="img/scrambelings.jpeg" alt="First designs scrambled on a pice of paper"><br>
 
 
         <p>A lot of people think that designing a CPU is the hardest thing in the world. (Me included before I started learning about this stuff)
@@ -43,7 +44,7 @@
             Because that simplified the design a lot. Like I said the D1 works with 4-bit data. And has a 6-bit program memory (or PMEM) address space.
             Like I said before that limits us to 64 instructions per program. Every instruction is one byte long.
             You’re maybe thinking that 64 instructions per program isn’t a whole lot. And you would be right.
-            But I managed to do quite a few things within these limitations. More on that later.</p>
+            But I managed to do a few things within these limitations. More on that later.</p>
 
         <p>Before we continue let me talk about naming real quick.
             In my opinion there is no good word for 4-bits. I’ve heard it called a nibble. For example in the Intel 4004 manual.
@@ -81,8 +82,8 @@
         <p>Now let’s talk about the actual architecture of the D1.
             Here is a block diagram that I drew up:</p><br>
 
-            [block diagram]<br>
-            [Real image with things highlighted]<br>
+            <img class="bigImg" src="img/D1BlockDiagram.jpeg" alt="Block diagram of the D1 computer">
+            <img class="bigImg" src="img/D1ComputerWithLabels.jpeg" alt="D1 computer with labels on everything"><br>
 
         <p>Like I said it’s a Harvard architecture. But it’s a little different than your typical CPU.
             Like a typical Harvard architecture the D1 is split up into a data and a address site.
@@ -151,6 +152,7 @@
                 The rotate instructions to the same thing except that they don’t modify the carry flag and instead of shifting in zero they shift in the lost bit.
                 I forgot to mention the input output thing earlier. Basically in reads from switches on the front panel and stores it into the dest register.
                 And output is currently not used by anything. But it would output the contends of dest to somewhere. Like a said it’s not used currently.</p>
+
             <p>On the topic of not used, there are actually quite a few no-parameter-instructions that don’t do anything.
                 Maybe I’m going to do something with them in the future we’ll see. </p>
 
@@ -252,19 +254,20 @@
             <br><h1>Demonstration:</h1>
 
             <p>There are three “demos” that I wrote for the D1. 4-bit multiplication, 4-bit division and kill the bit the game from the Altair 8800.
-                I’m not going to explain the implementation of these programs. But you can find the code HERERERER.
+                I’m not going to explain the implementation of these programs. But you can find the code <a href="https://github.com/Zteid7464/D1Asm/tree/main/examples">here</a>.
                 Multiplication and division both take around 5 minutes to complete.
                 Pretty slow but what did you expect? And kill the bit runs so painfully slow that it’s quite boring to play.
                 But at least it works. Here are some videos of the Computer running these programs.
                 (Feel free to skip ahead if you don't want to watch 5 minutes of blinking lights)</p>
 
-            VIDEOOOOOOOOOOOOOOOOOOOOO
-
+            <br><a href="https://www.youtube.com/watch?v=2YX_yv_jW9g">Multiplication</a>
+            <br><a href="https://www.youtube.com/watch?v=ueh2NbxQB_8">Division</a>
+            <br><a href="https://www.youtube.com/shorts/n99gmIqNMZQ">Kill the bit</a><br>
 
             <h1>Future projects:</h1>
 
             <p>I am definitely not done building stuff. And if I feel like it I’m gonna document it here.
                 I’m already designing the D2 and it’s going to be <i>MUCH MUCH</i> faster so stay tuned for that.
-                Also if you have any question or just want to get in touch with me send me an email at EMAIIIIIIIILLLLLL ADDRESSSE. See y’all!</p>
+                Also if you have any question or just want to get in touch with me send me an email at <i>zteid.ito@proton.me</i> See y’all!</p>
     </body>
 </html>

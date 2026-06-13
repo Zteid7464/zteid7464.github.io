@@ -38,3 +38,23 @@ p {
   justify-content: center;
   align-items: center;
 }
+
+.smalImg {
+    width: 50%;
+}
+
+.bigImg {
+    width: 80%;
+}
+
+a:link {
+    color: #39FF14;
+}
+
+a:visited {
+    color: #39FF14;
+}
+
+a:hover {
+    color: olivedrab;
+}
