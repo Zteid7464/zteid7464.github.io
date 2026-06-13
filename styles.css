@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: white;
+    margin: 0;
+    height: 100%;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bigLink {
+    font-size: 100px;
+    text-decoration: none;
+}
+
+.bigLink:link {
+    color: darkblue;
+}
+
+.bigLink:visited {
+    color: darkblue;
+}
+
+.bigLink:hover {
+    color: olivedrab;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
